@@ -1,0 +1,63 @@
+t checkout master.
+En este caso me moví a la rama master .
+(git checkout permite moverse de rama en rama )
+(ej git checkout” nombre de la rama”)
+
+
+2:Luego tuve que entrar a las carpetas con el (comando cd)
+ejemplo :cd Carpeta1 hasta llegar a la Carpeta 3 
+(cd : permite moverse entre directorios del sistema)
+
+
+3: Al llegar  a la Carpeta 3 se utilizó el comando 
+(mkdir) Carpeta4 y otro  (comando touch) con el nombre de Archivo4.txt .
+(touch para crear un archivo de texto)  
+(mkdir (para crear Carpetas o archivos ))
+(mkdir “nombre de la Carpeta”)
+(touch “nombre del archivo”)
+
+Estos archivos aún no están cargados con el comando (git add.)esto se puede complementar con el comando git status  para ver en qué estados están.
+(El comando git add añade lo que hacemos a un estado stage preparado para la confirmación)
+(git status:archivos que han sido modificados pero no añadidos y los archivos que están en el área de preparación)
+
+Luego cd  para entrar en Carpeta4 para crear con touch Archivo4
+Luego  regrese a la Carpeta4 con comandos cd .. 
+el comando (git add .) (esta variante  permite agregar todos los cambios en el directorio actual y sus subdirectorios.)
+
+4. Ahora el git add . (para añadir a la area de preparacion listo para la confirmación)
+git status para comprobar que esté en de preparación en espera para la confirmación
+
+Luego un  (git commit para  confirmar los cambios ).
+5 - genera una nueva rama  con el comando branch 4er-etapa
+comando git branch permite generar ramas  
+el commit correspondiente  a la rama 4
+
+6- Luego regrese con cd ..  hasta la rama master 
+para subir los cambios con el git push (que permite subir los cambios al repositorio central o remoto)
+volver a entrar en la rama 4er-etapa 
+para darle el comando git  push 
+
+ git push --set-upstream origin 4etapa
+ para que este al mismo nivel que la rama original . 
+ (git branch” nombre de la rama”: crea una rama)
+ (git push : Envía los cambios de la rama local a la rama remota.)
+ (git push  --set-upstream origin o git push -u)Se usa cuando estás empujando una nueva rama de tu repositorio local al remoto para que se sincronicen. 
+
+ (git checkout permite moverse de rama en rama )
+ (ej git checkout” nombre de la rama”)
+
+ (touch para crear un archivo de texto)  
+ (touch “nombre del archivo”)
+ (mkdir (para crear Carpetas o archivos ))
+ (mkdir “nombre de la Carpeta”)
+
+ (El comando git add añade lo que hacemos a un estado stage preparado para la confirmación)
+ (git commit:utiliza para guardar los cambios a los cuales les diste antes el comando add que están en la área de preparación)
+
+
+ (git status:archivos que han sido modificados pero no añadidos y los archivos que están en el área de preparación)
+
+ (git add .) : (El comando git add añade lo que hacemos a un estado stage preparado para la confirmación))
+
+ (git add “nombre del archivo a agregar” :agregar un archivo específico)
+ 
