@@ -1,0 +1,25 @@
+t checkout master (git checkout permite moverse de ramas )
+En este caso me moví a la rama master .
+2:luego tuve que entrar a las carpetas con el comando cd
+ejemplo :cd Carpeta1 
+hasta llegar a la Carpeta 3 
+3: al llegar al a la Carpeta3 se utilizó el comando 
+mkdir(para crear Archivos) Carpeta4.
+y otro  comando touch para crear un archivo de texto  
+con el nombre de Archivo4.txt .
+Estos archivos aún no están cargados con el comando git add.
+Luego cd  para entrar en Carpeta4 para crear con touch Archivo4
+Luego  regrese a la Carpeta4 con comandos cd .. 
+4. ahora el git add . (para añadir a la area de preparacion)
+git status para comprobar que esté en de preparación en espera para la confirmación
+luego un commit para  confirmar los cambios .
+5 - genera una nueva rama  con el comando branch 4er-etapa 
+el commit correspondiente  a la rama 4
+6- luego regrese con cd ..  hasta la rama master 
+para subir los cambios con el git push (que permite subir los cambios al repositorio central o remoto)
+volver a entrar en la rama 4er-etapa 
+para darle el comando git  push 
+
+ git push --set-upstream origin 4etapa
+ para que este al mismo nivel que la rama original . 
+
